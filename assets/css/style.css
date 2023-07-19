@@ -7,3 +7,64 @@
 body {
     font-family: 'DM Sans', sans-serif;
 }
+
+/* #region debug */
+
+.debug .main-left {
+    height: 100vh;
+    width: 225px;
+    background-color: black;
+    border: 1px solid red;
+}
+
+.debug .main-right {
+    background-color: gray;
+    height: calc(100vh);
+    width: calc(100vw - 225px);
+    border: 1px solid yellow;
+}
+
+.debug .right-header {
+    height: 100px;
+    background-color: lightgreen;
+    border: 1px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #endregion debug */
+
+/* #region utility */
+
+.d-flex {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #endregion utility */
