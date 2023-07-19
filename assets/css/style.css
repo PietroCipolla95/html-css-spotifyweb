@@ -8,6 +8,13 @@ body {
     font-family: 'DM Sans', sans-serif;
 }
 
+:root {
+    --spt-green: #A3F02E;
+    --spt-sidebar: #000000;
+    --spt-footer: #282828;
+    --spt-main: #141922:
+}
+
 /* #region debug */
 
 .debug .sidebar {
@@ -101,6 +108,13 @@ body {
     background-color: white;
 }
 
+.debug .main-header a {
+    background-color: black;
+    border: 1px solid red;
+    width: 100px;
+    height: 60px;
+}
+
 
 
 
@@ -152,6 +166,9 @@ body {
     position: sticky;
     top: 0;
     left: 0;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 2rem;
 }
 
 
@@ -167,5 +184,24 @@ body {
 
 
 /* #endregion right */
+
+/* #region footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #region footer */
+
 
 
