@@ -285,31 +285,25 @@ footer {
 
     .col-6-s {
         width: calc(50%);
-    }
-
-
-
-    
-
-    
+    }   
 }
- 
-
-
-
-
-
 
 /* #endregion 639 */
 
+/* #region 552 */
 
+@media screen and (max-width: 552px) {
 
+    .sidebar {
+        width: 70px;
+    }
 
+    .main-body {
+        width: calc(100vw - 70px);
+    }
+    
+}
 
-
-
-
-
-
+/* #region 552 */
 
 /* #endregion Media query */
