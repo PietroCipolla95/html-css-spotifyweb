@@ -10,27 +10,27 @@ body {
 
 /* #region debug */
 
-.debug .main-left {
+.debug .sidebar {
     height: 100vh;
     width: 225px;
     background-color: black;
     border: 1px solid red;
 }
 
-.debug .main-right {
+.debug main {
     background-color: gray;
     height: calc(100vh);
     width: calc(100vw - 225px);
     border: 1px solid yellow;
 }
 
-.debug .right-header {
+.debug .main-header {
     height: 100px;
     background-color: lightgreen;
     border: 1px solid red;
 }
 
-.debug .right-nav {
+.debug .main-nav {
     height: 80px;
     background-color: white;
     border: 1px solid black;
@@ -39,7 +39,7 @@ body {
 
 }
 
-.debug .right-nav a {
+.debug .main-nav a {
     height: 40px;
     width: 50px;
     background-color: black;
