@@ -43,7 +43,6 @@ body {
     border: 1px solid black;
     justify-content: center;
     align-items: center;
-
 }
 
 .debug .main-nav a {
@@ -213,6 +212,18 @@ body {
     color: white;
 }
 
+.main-nav {
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+
+.main-nav a {
+    text-decoration: none;
+    color: gray;
+    margin: 0 1rem;
+}
 
 
 
