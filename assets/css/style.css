@@ -22,6 +22,7 @@ body {
     height: calc(100vh);
     width: calc(100vw - 225px);
     border: 1px solid yellow;
+    overflow-y: auto;
 }
 
 .debug .main-header {
@@ -46,6 +47,47 @@ body {
     border: 1px solid red;
 }
 
+.debug .container {
+    background-color: black;
+    border: 2px solid red;
+    padding: 2rem;
+}
+
+.debug .row {
+    background-color: white;
+    height: 300px;
+    border: 1px solid red;
+    margin: 1rem 0;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.debug .col-2 {
+    background-color: lightgreen;
+    border: 1px solid red;
+    height: 100%;
+    padding: 1rem;
+}
+
+.debug .card {
+    background-color: lightcoral;
+    border: 1px solid red;
+    height: 100%;
+    padding: 1rem;
+}
+
+.debug .image {
+    background-color: black;
+    border: 1px solid red;
+    height: 60%;
+}
+
+.debug h4,
+.debug h6 {
+    background-color: black;
+    border: 1px solid red;
+    height: 20%;
+}
 
 
 
@@ -67,6 +109,11 @@ body {
 
 .d-flex {
     display: flex;
+}
+
+
+.col-2 {
+    width: calc(100% / 12 * 2);
 }
 
 
