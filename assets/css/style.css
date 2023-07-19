@@ -193,6 +193,8 @@ body {
     background-color: var(--spt-main);
 }
 
+/* #region main header */
+
 .main-header {
     height: 100px;
     background-color: var(--spt-upgrade);
@@ -218,11 +220,46 @@ body {
     padding: 2rem;
 }
 
-
 .main-nav a {
     text-decoration: none;
     color: gray;
     margin: 0 1rem;
+}
+
+#spotlight {
+    border-bottom: 1px solid #A3F02E;
+}
+
+/* #endregion main header */
+
+/* #region main rows */
+
+.main-body .container {
+    padding: 2rem;
+}
+
+.card {
+    text-align: center;
+}
+
+.main-body img {
+    height: 180px;
+    aspect-ratio: 1;
+}
+
+.main-body h6 {
+    color: grey;
+    padding: 0.5rem 0;
+}
+
+.main-body h4 {
+    color: white;
+    padding: 0.5rem 0;
+}
+
+.main-body h2 {
+    color: white;
+    padding: 0.5rem 0;
 }
 
 
@@ -234,6 +271,20 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #endregion main rows */
 
 
 /* #endregion right */
