@@ -145,3 +145,27 @@ body {
 
 
 /* #endregion utility */
+
+/* #region Right */
+
+.main-header {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #endregion right */
+
+
