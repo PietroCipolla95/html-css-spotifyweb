@@ -6,6 +6,7 @@
 
 body {
     font-family: 'DM Sans', sans-serif;
+    overflow: hidden;
 }
 
 :root {
@@ -26,8 +27,7 @@ body {
 
 .debug main {
     background-color: gray;
-    border: 1px solid yellow;
-    height: calc(100vh - 200px);   
+    border: 1px solid yellow;  
 }
 
 .debug .main-header {
@@ -161,7 +161,7 @@ body {
 /* #region Right */
 
 .main-body {
-    height: calc(100vh - 200px);
+    height: calc(100vh - 190px);
     width: calc(100vw - 225px);
     overflow-y: auto;
 }
