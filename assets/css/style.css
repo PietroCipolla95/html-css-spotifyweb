@@ -323,5 +323,41 @@ footer {
 
 /* #region footer */
 
+/* #region Media query */
+
+/* #region 878 */
+
+@media screen and (max-width: 878px) {
+
+    /* Main right */
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .col-3-md {
+        width: calc(100% / 12 * 3);
+    }
+}
+    
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #endregion Media query */
