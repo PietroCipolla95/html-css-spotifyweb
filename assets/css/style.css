@@ -145,7 +145,7 @@ body {
 /* #region left/sidebar */
 
 .sidebar {
-    height: 100vh;
+    height: calc(100vh - 90px);
     width: 225px;
     background-color: var(--spt-sidebar);
 }
@@ -200,9 +200,20 @@ body {
     font-weight: 800;
 }
 
-#spotlight {
-    border-bottom: 1px solid #A3F02E;
-}
+#spotlight::after {
+    display: block;
+    content: '';
+    width: 50%;
+    height: 1px;
+    background: var(--spt-green);
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+   }
+   
+   #spotlight {
+   position: relative;  
+   }
 
 /* #region main nav */
 
@@ -239,11 +250,32 @@ body {
 
 .main-body h2 {
     color: white;
-    padding: 0.5rem 0;
+    padding: 0.5rem .6rem;
 }
 
 .popular-artists img {
     border-radius: 50%;
+}
+
+.image {
+    position: relative;
+}
+
+.play {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.image:hover .play {
+    display: block;
+}
+
+.image img:hover {
+    opacity: 0.3;
 }
 
 /* #endregion main rows */
@@ -273,6 +305,10 @@ footer {
     .col-3-md {
         width: calc(100% / 12 * 3);
     }
+
+    .main-nav a{
+        margin-top: 2rem;
+    }
 }
 
 /* #endregion 878 */
@@ -295,11 +331,11 @@ footer {
 @media screen and (max-width: 552px) {
 
     .sidebar {
-        width: 70px;
+        width: 200px;
     }
 
     .main-body {
-        width: calc(100vw - 70px);
+        width: calc(100%);
     }
     
 }
