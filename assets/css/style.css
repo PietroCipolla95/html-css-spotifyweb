@@ -176,7 +176,7 @@ body {
 .home,
 .search,
 .library,
-.install,
+.download,
 .user {
     padding: 0.6rem;
 }
@@ -191,7 +191,7 @@ body {
 .home img,
 .search img,
 .library img,
-.install img,
+.download img,
 .user img {
     width: 10%;
 }
@@ -216,7 +216,12 @@ body {
 }
 
 .playlist-list {
-    overflow-y: auto;
+    height: 150px;
+    overflow: auto;
+}
+
+.playlist-list::-webkit-scrollbar {
+    display: none;
 }
 
 .sidebar hr {
@@ -458,8 +463,9 @@ footer {
     }
 
     .sidebar-xs .row {
-        justify-content: space-between;
         height: 100%;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .sidebar-xs img {
