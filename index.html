@@ -12,7 +12,7 @@
 </head>
 <body class="">
     <div class="d-flex">  <!-- Top section -->
-        <div class="sidebar"> <!-- Sidebar -->
+        <div class="sidebar d-flex"> <!-- Sidebar -->
             <div class="container d-flex dir-col">
                 <div class="row d-flex dir-col">
                     <div class="col-12 side-nav"> <!-- sidabar navigation -->
@@ -40,12 +40,12 @@
                             </div>                            
                         </div>                        
                     </div>
-                    <div class="col-12 playlist">
+                    <div class="col-12 playlist">  <!-- Playlis section -->
                         <div class="card d-flex dir-col">
                             <h3>
                                 Playlist
                             </h3>
-                            <div class="create-playlist">
+                            <div class="create-playlist">  <!-- crea playlist -->
                                 <a href="#" class="d-flex">
                                     <i class="fa-solid fa-square-plus fa-3x"></i>
                                     <span>
@@ -53,29 +53,48 @@
                                     </span>
                                 </a>
                             </div>
-                            <a href="#">
-                                Nome Playlist
-                            </a>
-                            <a href="#">
-                                Nome Playlist
-                            </a><a href="#">
-                                Nome Playlist
-                            </a><a href="#">
-                                Nome Playlist
-                            </a><a href="#">
-                                Nome Playlist
-                            </a><a href="#">
-                                Nome Playlist
-                            </a><a href="#">
-                                Nome Playlist
-                            </a>
+                            <div class="playlist-list d-flex dir-col">  <!-- Playlists List -->
+                                <a href="#">       
+                                    Nome Playlist
+                                </a>
+                                <a href="#">
+                                    Nome Playlist
+                                </a>
+                                <a href="#">
+                                    Nome Playlist
+                                </a>
+                                <a href="#">
+                                    Nome Playlist
+                                </a>
+                                <a href="#">
+                                    Nome Playlist
+                                </a>
+                                <a href="#">
+                                    Nome Playlist
+                                </a>
+                                <a href="#">
+                                    Nome Playlist
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-12">
+                <div class="row d-flex dir-col">
+                    <div class="col-12 side-bottom">
                         <div class="card">
-
+                            <div class="install d-flex"> <!-- library -->
+                                <img src="./assets/img/download.svg" alt=""> 
+                                <a href="#">
+                                    La tua libreria
+                                </a>
+                            </div>
+                            <hr>
+                            <div class="user d-flex"> <!-- library -->
+                                <img src="./assets/img/profile.svg" alt=""> 
+                                <a href="#">
+                                    John Doe
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>

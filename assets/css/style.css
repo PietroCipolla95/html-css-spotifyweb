@@ -148,6 +148,10 @@ body {
 
 /* #region left/sidebar */
 
+.sidebar .container {
+    justify-content: space-between;
+}
+
 .sidebar {
     height: calc(100vh - 90px);
     width: 225px;
@@ -158,10 +162,9 @@ body {
     color: white;
 }
 
-/* #region sidebar nav */
-
 .logo-large {
     width: 150px;
+    margin-top: 2rem;
     margin-bottom: 1rem;
     padding-left: 0.6rem;
 }
@@ -185,11 +188,11 @@ body {
 
 .home img,
 .search img,
-.library img {
+.library img,
+.install img,
+.user img {
     width: 10%;
 }
-
-/* #endregion sidebar nav */
 
 .playlist h3 {
     color: white;
@@ -209,6 +212,20 @@ body {
 .playlist a{
     padding-bottom: 0.5rem;
 }
+
+.install,
+.user {
+    padding-left: 0.6rem;
+    margin-bottom: 1rem;
+}
+
+.sidebar hr {
+    padding-left: 0.6rem;
+    width: 90%;
+    margin: 1rem 0.6rem;
+}
+
+
 
 
 
@@ -313,7 +330,7 @@ body {
 
 /* #region main rows */
 
-.row {
+main .row {
     margin: 2rem 0;
 }
 
