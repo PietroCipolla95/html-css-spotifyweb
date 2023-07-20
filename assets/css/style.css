@@ -215,9 +215,13 @@ body {
     left: 25%;
    }
    
-   #spotlight {
+#spotlight {
    position: relative;  
-   }
+}
+
+.main-nav a:hover {
+    color: white;
+}
 
 /* #endregion main nav */
 
