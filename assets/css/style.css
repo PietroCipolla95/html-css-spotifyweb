@@ -182,6 +182,10 @@ body {
     color: white;
 }
 
+.main-header a:hover {
+    transform: scale(1.1);
+}
+
 /* #endregion main header */
 
 /* #region main nav */
@@ -215,7 +219,7 @@ body {
    position: relative;  
    }
 
-/* #region main nav */
+/* #endregion main nav */
 
 /* #region main rows */
 
@@ -292,7 +296,7 @@ footer {
     left: 0;
 }
 
-/* #region footer */
+/* #endregion footer */
 
 /* #region Media query */
 
