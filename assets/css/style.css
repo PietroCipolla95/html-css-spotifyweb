@@ -140,6 +140,10 @@ body {
     flex-wrap: wrap;
 }
 
+.col-12 {
+    width: 100%;
+}
+
 /* #endregion utility */
 
 /* #region left/sidebar */
@@ -149,6 +153,72 @@ body {
     width: 225px;
     background-color: var(--spt-sidebar);
 }
+
+/* #region sidebar nav */
+
+.logo-large {
+    width: 150px;
+    margin-bottom: 1rem;
+    padding-left: 0.6rem;
+}
+
+.home {
+    border-left: 1px solid #A3F02E;
+}
+
+.home,
+.search,
+.library {
+    padding: 0.6rem;
+}
+
+.sidebar a {
+    color: gray;
+    padding-left: 0.4rem;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.home img,
+.search img,
+.library img {
+    width: 10%;
+}
+
+/* #endregion sidebar nav */
+
+.playlist h3 {
+    color: white;
+    padding: 0.6rem;
+}
+
+.create-playlist i {
+    color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* #endregion left/sidebar */
 
@@ -235,7 +305,7 @@ body {
     padding: 2rem;
 }
 
-.card {
+main .card {
     text-align: center;
     padding: 0.5rem;
 }
