@@ -236,6 +236,15 @@ body {
 
 /* #endregion left/sidebar */
 
+/* #region sidebar xs */
+
+.sidebar-xs {
+    display: none;
+    width: 150px;
+}
+
+/* #endregion sidebar xs */
+
 /* #region Right */
 
 .main-body {
@@ -429,9 +438,33 @@ footer {
     .main-body {
         width: calc(100%);
     }
+
+    .sidebar {
+        display: none;
+    }
+
+    .sidebar-xs {
+        display: block;
+        background-color: var(--spt-sidebar);
+        padding: 0.5rem;
+    }
+
+    .sidebar-xs .col-12 {
+        text-align: center;
+    }
+
+    .sidebar-xs .row {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .sidebar-xs img {
+        width: 80%;
+    }
+
     
 }
 
-/* #region 552 */
+/* #endregion 552 */
 
 /* #endregion Media query */
