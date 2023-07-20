@@ -215,6 +215,10 @@ body {
     padding-bottom: 0.5rem;
 }
 
+.playlist-list {
+    overflow-y: auto;
+}
+
 .sidebar hr {
     padding-left: 0.6rem;
     width: 90%;
@@ -455,7 +459,7 @@ footer {
 
     .sidebar-xs .row {
         justify-content: space-between;
-        align-items: center;
+        height: 100%;
     }
 
     .sidebar-xs img {
