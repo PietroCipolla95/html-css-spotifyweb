@@ -388,7 +388,7 @@ main .card {
     display: block;
 }
 
-.image img:hover {
+.image:hover img {
     opacity: 0.3;
 }
 
@@ -416,7 +416,8 @@ footer .container {
     justify-content: space-between;
 }
 
-.left-foot {
+.left-foot,
+.right-foot {
     width: 15%;
 }
 
@@ -424,9 +425,6 @@ footer .container {
     width: 30%;
 }
 
-.right-foot {
-    width: 15%;
-}
 
 /* #region left foot */
 
@@ -661,7 +659,7 @@ footer .fa-circle-play:hover {
     .left-foot,
     .right-foot,
     .mid-foot {
-        width: 20%;
+        width: 10%;
     }
 
     
