@@ -606,9 +606,16 @@ footer .fa-circle-play:hover {
     } 
     
     .left-foot, 
-    .right-foot,
+    .right-foot {
+        width: 30%;
+    }
+    
     .mid-foot {
-        width: 25%;
+        width: 35%;
+    }
+
+    .left-foot {
+        padding-left: 1rem;
     }
    
 }
