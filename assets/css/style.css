@@ -428,6 +428,8 @@ footer .container {
     width: 15%;
 }
 
+/* #region left foot */
+
 .left-foot img {
     width: 60px;
     padding-right: .8rem;
@@ -453,16 +455,19 @@ footer .container {
     color: gray;
 }
 
+/* #endregion left foot */
+
+/* #region mid foot */
+
 .commands {
+    margin-bottom: 1rem;
     justify-content: center;
-    padding-bottom: 1.5rem;
-    align-items: center;
-    width: 100%;
 }
 
 .commands a {
     color: white;
     padding: 0 1rem;
+    text-decoration: none;
 }
 
 .commands .fa-circle-play {
@@ -478,7 +483,7 @@ footer .container {
 
 .current-duration {
     height: 3px;
-    width: 50px;
+    width: 20%;
     background-color: white;
     border-radius: 20px;
 }
@@ -486,38 +491,47 @@ footer .container {
 .max-duration {
     height: 3px;
     background-color: gray;
-    width: 350px;
+    width: 100%;
     border-radius: 20px;
 }
 
 .song-duration-info span {
     color: white;
     font-size: .8rem;
-    width: 10%;
 }
 
 .song-duration-info {
     width: 100%;
 }
 
+/* #endregion mid foot */
+
+/* #region right foot */
+
 .right-foot i {
     padding: 0 .8rem;
     color: white;
 }
 
+.volume {
+    width: 30%;
+}
+
 .current-volume {
     height: 3px;
-    width: 40px;
+    width: 40%;
     background-color: white;
     border-radius: 20px;
 }
 
 .max-volume {
-    width: 60px;
+    width: 60%;
     height: 3px;
     background-color: gray;
     border-radius: 20px;
 }
+
+/* #endregion right foot */
 
 .current-volume,
 .current-duration {
@@ -594,8 +608,9 @@ footer .fa-circle-play:hover {
     .left-foot, 
     .right-foot,
     .mid-foot {
-        width: 30%;
+        width: 25%;
     }
+   
 }
 
 /* #endregion 768 */
@@ -635,6 +650,13 @@ footer .fa-circle-play:hover {
     .sidebar-xs img {
         width: 80%;
     }
+
+    .left-foot,
+    .right-foot,
+    .mid-foot {
+        width: 20%;
+    }
+
     
 }
 
