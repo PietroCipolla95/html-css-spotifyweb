@@ -460,21 +460,20 @@ footer .container {
     width: 100%;
 }
 
-.commands i {
-    color: white;
-    padding-left: 1rem;
-}
-
 .commands a {
     color: white;
-    padding: 0rem 1.5rem;
+    padding: 0 1rem;
 }
 
-
+.commands .fa-circle-play {
+    color: white;
+    padding: 0rem .5rem;
+}
 
 .duration {
     width: 80%;
-    margin: auto;
+    margin: 0 1rem;
+    align-items: center;
 }
 
 .current-duration {
@@ -551,9 +550,9 @@ footer .fa-circle-play:hover {
 
 /* #region Media query */
 
-/* #region 878 */
+/* #region 1024 */
 
-@media screen and (max-width: 878px) {
+@media screen and (max-width: 1024px) {
 
     /* Main right */
     
@@ -564,26 +563,42 @@ footer .fa-circle-play:hover {
     .main-nav a{
         margin-top: 2rem;
     }
+
+    .left-foot,
+    .right-foot {
+        width: 25%;
+    }
+    
+    .mid-foot {
+        width: 40%;
+    }
+    
 }
 
-/* #endregion 878 */
+/* #endregion 1024 */
 
-/* #region 639 */
+/* #region 768 */
 
-@media  screen and (max-width: 639px) {
+@media  screen and (max-width: 768px) {
 
     /* Main right */
 
     .col-6-s {
         width: calc(50%);
-    }   
+    } 
+    
+    .left-foot, 
+    .right-foot,
+    .mid-foot {
+        width: 30%;
+    }
 }
 
-/* #endregion 639 */
+/* #endregion 768 */
 
-/* #region 552 */
+/* #region 475 */
 
-@media screen and (max-width: 552px) {
+@media screen and (max-width: 475px) {
 
     .sidebar {
         width: 200px;
@@ -616,10 +631,9 @@ footer .fa-circle-play:hover {
     .sidebar-xs img {
         width: 80%;
     }
-
     
 }
 
-/* #endregion 552 */
+/* #endregion 475 */
 
 /* #endregion Media query */
