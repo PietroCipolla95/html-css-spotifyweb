@@ -407,12 +407,16 @@ footer {
 }
 
 footer .container {
-    padding: 1rem;
+    padding: 1rem .6rem;
+    width: 100%;
 }
 
 footer .row,
 footer .container {
     align-items: center;
+}
+
+footer .container {
     justify-content: space-between;
 }
 
@@ -429,7 +433,7 @@ footer .container {
 /* #region left foot */
 
 .left-foot img {
-    width: 60px;
+    width: 30%;
     padding-right: .8rem;
 }
 
@@ -459,7 +463,7 @@ footer .container {
 
 .commands {
     margin-bottom: 1rem;
-    justify-content: center;
+    width: 100%;
 }
 
 .commands a {
@@ -471,6 +475,10 @@ footer .container {
 .commands .fa-circle-play {
     color: white;
     padding: 0rem .5rem;
+}
+
+.commands .card {
+    justify-content: center;
 }
 
 .duration {
@@ -596,7 +604,7 @@ footer .fa-circle-play:hover {
 
 /* #region 768 */
 
-@media  screen and (max-width: 768px) {
+@media  screen and (max-width: 768px) and (min-width: 553) {
 
     /* Main right */
 
@@ -613,17 +621,18 @@ footer .fa-circle-play:hover {
         width: 35%;
     }
 
-    .left-foot {
-        padding-left: 1rem;
-    }
-   
+    .like-folder {
+        flex-direction: column;
+        margin: 0;
+    }   
+
 }
 
 /* #endregion 768 */
 
-/* #region 425 */
+/* #region 552 */
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 552px) {
 
     .sidebar {
         width: 200px;
@@ -657,10 +666,15 @@ footer .fa-circle-play:hover {
         width: 80%;
     }
 
+    .like-folder {
+        margin: 0;
+        flex-direction: column;
+    }
+
     
     
 }
 
-/* #endregion 425 */
+/* #endregion 552 */
 
 /* #endregion Media query */
