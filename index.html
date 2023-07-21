@@ -14,8 +14,8 @@
     <div class="d-flex">  <!-- Top section -->
         <div class="sidebar d-flex"> <!-- Sidebar -->
             <div class="container d-flex dir-col">
-                <div class="row d-flex dir-col">
-                    <div class="col-12 side-nav"> <!-- sidabar navigation -->
+                <div class="row d-flex dir-col">  <!-- Top row sidebar -->
+                    <div class="col-12 side-nav"> <!-- sidebar navigation -->
                         <div class="card d-flex dir-col">
                             <div class="logo-large"> <!-- logo large -->
                                 <img src="./assets/img/logo.svg" alt="">                                
@@ -109,7 +109,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row d-flex dir-col">
+                <div class="row d-flex dir-col"> <!-- Bottom row sidebar -->
                     <div class="col-12 side-bottom">
                         <div class="card">
                             <div class="download d-flex"> <!-- install -->
@@ -334,7 +334,46 @@
         </main>
     </div>
     <footer> <!-- Footer -->
+        <div class="container d-flex">
+            <div class="row left-foot d-flex">   <!-- left side footer -->
+                <img src="./assets/img/sinister.jpeg" alt="">  <!-- album cover -->
+                <div class="titles-foot">  <!-- title and artist -->
+                    <h4>
+                        Sinister
+                    </h4>
+                    <a href="#">
+                        <h6>
+                            Brano nome
+                        </h6>
+                    </a>
+                </div> 
+                <div class="like-folder">    <!-- Like and Folder button -->
+                    <a href="#">
+                        <i class="fa-regular fa-heart"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-regular fa-folder"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="row mid-foot dir-col">   <!-- Middle footer -->
+                <div class="col-12 commands d-flex"> 
+                    <i class="fa-solid fa-shuffle"></i> 
+                    <i class="fa-solid fa-backward-step"></i> 
+                    <a href="#">
+                        <i class="fa-regular fa-circle-play fa-2xl"></i>
+                    </a>
+                    <i class="fa-solid fa-forward-step"></i>
+                    <i class="fa-solid fa-rotate-right"></i>                              
+                </div>
+                <div class="col-12">
 
+                </div>
+            </div>
+            <div class="row right-foot">
+
+            </div>
+        </div>
     </footer>    
 </body>
 </html>

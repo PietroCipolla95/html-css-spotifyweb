@@ -402,6 +402,53 @@ footer {
     left: 0;
 }
 
+footer .container {
+    padding: 1rem;
+}
+
+footer .row,
+footer .container {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-foot img {
+    width: 60px;
+    padding-right: .8rem;
+}
+
+.left-foot h4 {
+    color: white;
+    font-size: .8rem;
+}
+
+.titles-foot a {
+    color: grey;
+    text-decoration: none;
+}
+
+.like-folder {
+    margin-left: 2rem;
+}
+
+.like-folder a {
+    padding-left: 0.6rem;
+    text-decoration: none;
+    color: gray;
+}
+
+.commands i {
+    color: white;
+    padding-left: 1rem;
+}
+
+.commands a {
+    color: white;
+    padding: 0rem 1.5rem;
+}
+
+
+
 /* #endregion footer */
 
 /* #region Media query */
