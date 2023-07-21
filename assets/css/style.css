@@ -596,9 +596,9 @@ footer .fa-circle-play:hover {
 
 /* #endregion 768 */
 
-/* #region 475 */
+/* #region 425 */
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 425px) {
 
     .sidebar {
         width: 200px;
@@ -634,6 +634,6 @@ footer .fa-circle-play:hover {
     
 }
 
-/* #endregion 475 */
+/* #endregion 425 */
 
 /* #endregion Media query */
