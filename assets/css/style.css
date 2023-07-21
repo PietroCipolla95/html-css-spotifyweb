@@ -509,6 +509,7 @@ footer .container {
 .right-foot i {
     padding: 0 .8rem;
     color: white;
+    justify-content: flex-end;
 }
 
 .volume {
@@ -527,7 +528,7 @@ footer .container {
     height: 3px;
     background-color: gray;
     border-radius: 20px;
-}
+} 
 
 /* #endregion right foot */
 
@@ -656,12 +657,7 @@ footer .fa-circle-play:hover {
         width: 80%;
     }
 
-    .left-foot,
-    .right-foot,
-    .mid-foot {
-        width: 10%;
-    }
-
+    
     
 }
 
