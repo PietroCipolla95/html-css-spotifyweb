@@ -448,6 +448,24 @@ footer .container {
 }
 
 
+.right-foot i {
+    padding: 0 .8rem;
+    color: white;
+}
+
+.current-volume {
+    height: 5px;
+    width: 30px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.max-volume {
+    width: 90px;
+    height: 5px;
+    background-color: gray;
+}
+
 
 /* #endregion footer */
 
