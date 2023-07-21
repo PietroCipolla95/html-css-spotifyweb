@@ -506,9 +506,6 @@ footer .container {
     font-size: .8rem;
 }
 
-.song-duration-info {
-    width: 100%;
-}
 
 /* #endregion mid foot */
 
@@ -577,7 +574,7 @@ footer .fa-circle-play:hover {
 
 /* #region 1024 */
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 
     /* Main right */
     
@@ -604,7 +601,7 @@ footer .fa-circle-play:hover {
 
 /* #region 768 */
 
-@media  screen and (max-width: 768px) and (min-width: 553) {
+@media  screen and (min-width: 553px) and (max-width: 768px) {
 
     /* Main right */
 
@@ -633,6 +630,10 @@ footer .fa-circle-play:hover {
 /* #region 552 */
 
 @media screen and (max-width: 552px) {
+
+    .col-6-s {
+        width: calc(50%);
+    } 
 
     .sidebar {
         width: 200px;
@@ -671,7 +672,10 @@ footer .fa-circle-play:hover {
         flex-direction: column;
     }
 
-    
+    .left-foot,
+    .right-foot {
+        width: 25%;
+    }
     
 }
 
